@@ -1,0 +1,35 @@
+{
+  "name": "my-npm-package",
+  "version": "1.0.0",
+  "description": "TypeScript boilerplate for npm package.",
+  "author": {
+    "name": "Kristiyan Velkov",
+    "email": "christiyanweb@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "keywords": [
+    "npm",
+    "TypeScript",
+    "npm package",
+    "npm package boilerplate",
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "path": "^0.12.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "workbox-webpack-plugin": "^6.5.4"
+  }
+}
